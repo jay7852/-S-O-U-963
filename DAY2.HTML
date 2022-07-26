@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> By Id </title>
+</head>
+<body>
+    <center><h1>
+        By ID swap 
+    </h1></center>
+    <center><p>
+        Today we are going to see how to swap a paragraph with just pressing a button  
+    </p></center>
+    <center><h2>
+       Just press this button  >> 
+<button type="button" onclick='document.getElementById("s01").innerHTML =
+" World is round but in ancient time they belive it is flat  " '> Change the pragraph  </button>
+    </h2></center>
+    <center><p id="s01"> World is Round  </p></center>
+</body>
+</html> 
+ 28  
+day 2/02By class.html
+@@ -0,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> By Class </title>
+</head>
+<body>
+    <center>
+        <h1>
+            By Class Name 
+        </h1>
+    </center>
+    <center>
+        <p>
+            Today we are going to see how to use array in java script by using a class name,<br> 
+            Here if we put 1 in collection it will show Bol bachan and if we put 0 then it will show bhagat.
+        </p>
+    </center>
+    <center><div class="actor">Bol bhagart </div>
+    <div class="actor">bhagat</div>
+        <script>
+        const collection = document.getElementsByClassName("actor");
+        collection[0].innerHTML = "Best actor";
+        </script></center>
+</body>
+</html> 
+ 32  
+day 2/03By tagarray.html
+@@ -0,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> By tag and array </title>
+</head>
+<body>
+      <center>
+        <h1>
+            By tag and array
+        </h1>
+      </center>
+      <center>
+        <p>
+            Today we are going to see how to change a line 
+            <br>
+            with just pressing this "change" button 
+        </p>
+      </center>
+      <center><h3>Click "Change" to change the text of this pragraph.</h3>
+      <button onclick="myFunction()">Change</button></center>
+
+      <script>
+      function myFunction() {
+        const list = document.getElementsByTagName("h3")[0].innerHTML = " JOY LE BHAI  😝😝";
+      }
+      </script>
+
+</body>
+</html> 
+ 27  
+day 2/04Date and time.html
+@@ -0,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Date and Time </title>
+</head>
+<body>
+    <center>
+        <h1>
+        Date and Time with javascript  
+        </h1>
+    </center>
+    <center>
+        <p>
+        Today we are going to see how to see real time date and time with just pressing a button  
+        </p>
+    </center>
+    <center>
+        <h2>
+       Just press this button  >> <button type="button" 
+       onclick='document.getElementById("demo").innerHTML = Date()'>click me </button>    
+    </h2>
+    <p id="demo"></p></center>
+</body>
+</html> 
